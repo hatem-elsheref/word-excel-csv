@@ -1,0 +1,21 @@
+{
+    "name": "hatem/files-app",
+    "description": "handle csv files - xlsx files and docx",
+    "require": {
+        "phpoffice/phpspreadsheet": "dev-master",
+        "phpoffice/phpword": "0.19.x-dev",
+        "fzaninotto/faker": "1.9.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hatem\\FilesApp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hatem Mohamed Elsheref",
+            "email": "hatem_mohamed_elsheref@yahoo.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
